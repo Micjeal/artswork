@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exhibitions & Events - ART</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="assets/images/favicon.ico">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <h2>ART</h2>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="about.html" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="gallery.html" class="nav-link">Gallery</a>
+                </li>
+                <li class="nav-item">
+                    <a href="departments.html" class="nav-link">Departments</a>
+                </li>
+                <li class="nav-item">
+                    <a href="exhibitions.html" class="nav-link active">Exhibitions</a>
+                </li>
+                <li class="nav-item">
+                    <a href="contact.html" class="nav-link">Contact</a>
+                </li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Exhibitions Header -->
+    <section class="exhibitions-header">
+        <div class="container">
+            <h1 class="page-title">Exhibitions & Events</h1>
+            <p class="page-subtitle">Discover our curated exhibitions showcasing the intersection of industrial design and fine arts</p>
+        </div>
+    </section>
+
+    <!-- Featured Current Exhibition -->
+    <section class="featured-exhibition">
+        <div class="container">
+            <div class="exhibition-hero">
+                <div class="exhibition-hero-content">
+                    <span class="exhibition-status current">Current Exhibition</span>
+                    <h2>Bauhaus Reimagined: Industrial Art in the Digital Age</h2>
+                    <p class="exhibition-description">Experience how traditional industrial design principles are being transformed by contemporary artists and digital technologies. This groundbreaking exhibition features over 50 works from international artists who bridge the gap between historical design movements and cutting-edge innovation.</p>
+                    
+                    <div class="exhibition-meta">
+                        <div class="meta-item">
+                            <strong>Duration:</strong>
+                            <span>March 15 - May 20, 2024</span>
+                        </div>
+                        <div class="meta-item">
+                            <strong>Venue:</strong>
+                            <span>ART Gallery Main Hall</span>
+                        </div>
+                        <div class="meta-item">
+                            <strong>Curator:</strong>
+                            <span>Dr. Elena Rodriguez</span>
+                        </div>
+                    </div>
+
+                    <div class="countdown-timer">
+                        <h4>Exhibition Ends In:</h4>
+                        <div class="countdown">
+                            <div class="countdown-item">
+                                <span id="days">45</span>
+                                <label>Days</label>
+                            </div>
+                            <div class="countdown-item">
+                                <span id="hours">12</span>
+                                <label>Hours</label>
+                            </div>
+                            <div class="countdown-item">
+                                <span id="minutes">30</span>
+                                <label>Minutes</label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <a href="gallery.html" class="btn btn-primary">View Exhibition Works</a>
+                </div>
+                <div class="exhibition-hero-image">
+                    <img src="assets/images/profile.jpg" alt="Bauhaus Reimagined Exhibition">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Upcoming Exhibitions -->
+    <section class="upcoming-exhibitions">
+        <div class="container">
+            <h2 class="section-title">Upcoming Exhibitions</h2>
+            <div class="exhibitions-grid">
+                <div class="exhibition-card">
+                    <img src="assets/images/profile.jpg" alt="Sustainable Design Exhibition">
+                    <div class="card-content">
+                        <span class="exhibition-status upcoming">Upcoming</span>
+                        <h3>Sustainable Design: Form Follows Function</h3>
+                        <p>Exploring eco-conscious design practices and sustainable materials in contemporary industrial art.</p>
+                        <div class="exhibition-details">
+                            <div class="detail-row">
+                                <strong>Opening:</strong> June 1, 2024
+                            </div>
+                            <div class="detail-row">
+                                <strong>Duration:</strong> 3 months
+                            </div>
+                            <div class="detail-row">
+                                <strong>Venue:</strong> Gallery Wing B
+                            </div>
+                        </div>
+                        <button class="btn btn-secondary register-btn" data-exhibition="Sustainable Design">Register Interest</button>
+                    </div>
+                </div>
+
+                <div class="exhibition-card">
+                    <img src="assets/images/profile.jpg" alt="Digital Craftsmanship Exhibition">
+                    <div class="card-content">
+                        <span class="exhibition-status upcoming">Upcoming</span>
+                        <h3>Digital Craftsmanship: The New Artisan</h3>
+                        <p>How digital tools are revolutionizing traditional craft techniques and creating new forms of artistic expression.</p>
+                        <div class="exhibition-details">
+                            <div class="detail-row">
+                                <strong>Opening:</strong> August 15, 2024
+                            </div>
+                            <div class="detail-row">
+                                <strong>Duration:</strong> 4 months
+                            </div>
+                            <div class="detail-row">
+                                <strong>Venue:</strong> Main Hall
+                            </div>
+                        </div>
+                        <button class="btn btn-secondary register-btn" data-exhibition="Digital Craftsmanship">Register Interest</button>
+                    </div>
+                </div>
+
+                <div class="exhibition-card">
+                    <img src="assets/images/profile.jpg" alt="Material Futures Exhibition">
+                    <div class="card-content">
+                        <span class="exhibition-status upcoming">Upcoming</span>
+                        <h3>Material Futures: Beyond Traditional Media</h3>
+                        <p>Innovative materials and their applications in contemporary art and industrial design.</p>
+                        <div class="exhibition-details">
+                            <div class="detail-row">
+                                <strong>Opening:</strong> October 10, 2024
+                            </div>
+                            <div class="detail-row">
+                                <strong>Duration:</strong> 2 months
+                            </div>
+                            <div class="detail-row">
+                                <strong>Venue:</strong> Gallery Wing A
+                            </div>
+                        </div>
+                        <button class="btn btn-secondary register-btn" data-exhibition="Material Futures">Register Interest</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Past Exhibitions -->
+    <section class="past-exhibitions">
+        <div class="container">
+            <h2 class="section-title">Past Exhibitions</h2>
+            <div class="past-exhibitions-grid">
+                <div class="past-exhibition-item">
+                    <img src="assets/images/profile.jpg" alt="Minimalist Movements Exhibition">
+                    <div class="past-overlay">
+                        <h4>Minimalist Movements</h4>
+                        <p>Jan - Mar 2024</p>
+                        <span class="view-archive">View Archive</span>
+                    </div>
+                </div>
+
+                <div class="past-exhibition-item">
+                    <img src="assets/images/profile.jpg" alt="Industrial Heritage Exhibition">
+                    <div class="past-overlay">
+                        <h4>Industrial Heritage</h4>
+                        <p>Oct - Dec 2023</p>
+                        <span class="view-archive">View Archive</span>
+                    </div>
+                </div>
+
+                <div class="past-exhibition-item">
+                    <img src="assets/images/profile.jpg" alt="Textile Innovations Exhibition">
+                    <div class="past-overlay">
+                        <h4>Textile Innovations</h4>
+                        <p>Jul - Sep 2023</p>
+                        <span class="view-archive">View Archive</span>
+                    </div>
+                </div>
+
+                <div class="past-exhibition-item">
+                    <img src="assets/images/profile.jpg" alt="Metal & Form Exhibition">
+                    <div class="past-overlay">
+                        <h4>Metal & Form</h4>
+                        <p>Apr - Jun 2023</p>
+                        <span class="view-archive">View Archive</span>
+                    </div>
+                </div>
+
+                <div class="past-exhibition-item">
+                    <img src="assets/images/profile.jpg" alt="Ceramic Traditions Exhibition">
+                    <div class="past-overlay">
+                        <h4>Ceramic Traditions</h4>
+                        <p>Jan - Mar 2023</p>
+                        <span class="view-archive">View Archive</span>
+                    </div>
+                </div>
+
+                <div class="past-exhibition-item">
+                    <img src="assets/images/profile.jpg" alt="Wood & Wonder Exhibition">
+                    <div class="past-overlay">
+                        <h4>Wood & Wonder</h4>
+                        <p>Oct - Dec 2022</p>
+                        <span class="view-archive">View Archive</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Events & Workshops -->
+    <section class="events-workshops">
+        <div class="container">
+            <h2 class="section-title">Upcoming Events & Workshops</h2>
+            <div class="events-list">
+                <div class="event-item">
+                    <div class="event-date">
+                        <span class="day">25</span>
+                        <span class="month">MAR</span>
+                    </div>
+                    <div class="event-content">
+                        <h4>Artist Talk: The Future of Industrial Design</h4>
+                        <p>Join renowned designer Marcus Chen as he discusses the evolution of industrial design in the digital age.</p>
+                        <div class="event-meta">
+                            <span>6:00 PM - 8:00 PM</span>
+                            <span>Main Auditorium</span>
+                            <span>Free Entry</span>
+                        </div>
+                    </div>
+                    <button class="btn btn-primary register-btn" data-event="Artist Talk">Register</button>
+                </div>
+
+                <div class="event-item">
+                    <div class="event-date">
+                        <span class="day">08</span>
+                        <span class="month">APR</span>
+                    </div>
+                    <div class="event-content">
+                        <h4>Hands-on Workshop: Ceramic Glazing Techniques</h4>
+                        <p>Learn traditional and contemporary glazing methods in this practical workshop led by master ceramicist Sarah Williams.</p>
+                        <div class="event-meta">
+                            <span>10:00 AM - 4:00 PM</span>
+                            <span>Studio Workshop</span>
+                            <span>$85 per person</span>
+                        </div>
+                    </div>
+                    <button class="btn btn-primary register-btn" data-event="Ceramic Workshop">Register</button>
+                </div>
+
+                <div class="event-item">
+                    <div class="event-date">
+                        <span class="day">15</span>
+                        <span class="month">APR</span>
+                    </div>
+                    <div class="event-content">
+                        <h4>Panel Discussion: Sustainability in Art & Design</h4>
+                        <p>Industry experts discuss sustainable practices and materials in contemporary art and industrial design.</p>
+                        <div class="event-meta">
+                            <span>7:00 PM - 9:00 PM</span>
+                            <span>Conference Room</span>
+                            <span>$15 entry</span>
+                        </div>
+                    </div>
+                    <button class="btn btn-primary register-btn" data-event="Panel Discussion">Register</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Registration Modal -->
+    <div id="registration-modal" class="modal">
+        <div class="modal-content">
+            <span class="modal-close">&times;</span>
+            <h3 id="modal-title">Event Registration</h3>
+            <form id="registration-form" class="registration-form">
+                <div class="form-group">
+                    <label for="reg-name">Full Name *</label>
+                    <input type="text" id="reg-name" name="name" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="reg-email">Email Address *</label>
+                    <input type="email" id="reg-email" name="email" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="reg-phone">Phone Number</label>
+                    <input type="tel" id="reg-phone" name="phone">
+                </div>
+                
+                <div class="form-group">
+                    <label for="reg-interest">Why are you interested in this event?</label>
+                    <textarea id="reg-interest" name="interest" rows="3"></textarea>
+                </div>
+                
+                <div class="form-group checkbox-group">
+                    <input type="checkbox" id="reg-newsletter" name="newsletter">
+                    <label for="reg-newsletter">Subscribe to our newsletter for updates on future exhibitions and events</label>
+                </div>
+                
+                <button type="submit" class="btn btn-primary">Complete Registration</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>ART</h3>
+                    <p>Bridging the gap between industrial design and fine arts through innovative exhibitions and educational programs.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="gallery.html">Gallery</a></li>
+                        <li><a href="exhibitions.html">Exhibitions</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Follow Us</h4>
+                    <div class="social-links">
+                        <a href="#" aria-label="Instagram">Instagram</a>
+                        <a href="#" aria-label="Facebook">Facebook</a>
+                        <a href="#" aria-label="Twitter">Twitter</a>
+                        <a href="#" aria-label="YouTube">YouTube</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 ART. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="assets/js/script.js"></script>
+    <script src="assets/js/chatbot.js"></script>
+    </body>
+</html>

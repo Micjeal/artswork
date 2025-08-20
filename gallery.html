@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery - ART</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="assets/images/favicon.ico">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <h2>ART</h2>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="about.html" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="gallery.html" class="nav-link active">Gallery</a>
+                </li>
+                <li class="nav-item">
+                    <a href="departments.html" class="nav-link">Departments</a>
+                </li>
+                <li class="nav-item">
+                    <a href="exhibitions.html" class="nav-link">Exhibitions</a>
+                </li>
+                <li class="nav-item">
+                    <a href="contact.html" class="nav-link">Contact</a>
+                </li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Gallery Header -->
+    <section class="gallery-header">
+        <div class="container">
+            <h1 class="page-title">Gallery</h1>
+            <p class="page-subtitle">Explore our curated collection of industrial art, fine arts, and applied design pieces</p>
+        </div>
+    </section>
+
+    <!-- Filter Controls -->
+    <section class="gallery-filters">
+        <div class="container">
+            <div class="filter-buttons">
+                <button class="filter-btn active" data-filter="all">All Works</button>
+                <button class="filter-btn" data-filter="wood">Wood</button>
+                <button class="filter-btn" data-filter="metal">Metal</button>
+                <button class="filter-btn" data-filter="ceramic">Ceramic</button>
+                <button class="filter-btn" data-filter="textile">Textile</button>
+                <button class="filter-btn" data-filter="digital">Digital Art</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Grid -->
+    <section class="gallery-section">
+        <div class="container">
+            <div class="gallery-grid">
+                <!-- Wood Items -->
+                <div class="gallery-item" data-category="wood">
+                    <img src="assets/images/profile.jpg" alt="Modern Wooden Chair">
+                    <div class="gallery-overlay">
+                        <h3>Ergonomic Oak Chair</h3>
+                        <p>Contemporary furniture design</p>
+                        <span class="category-tag">Wood</span>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="wood">
+                    <img src="assets/images/profile.jpg" alt="Wooden Sculpture">
+                    <div class="gallery-overlay">
+                        <h3>Abstract Form</h3>
+                        <p>Hand-carved walnut sculpture</p>
+                        <span class="category-tag">Wood</span>
+                    </div>
+                </div>
+
+                <!-- Metal Items -->
+                <div class="gallery-item" data-category="metal">
+                    <img src="assets/images/profile.jpg" alt="Metal Sculpture">
+                    <div class="gallery-overlay">
+                        <h3>Industrial Genesis</h3>
+                        <p>Steel and copper installation</p>
+                        <span class="category-tag">Metal</span>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="metal">
+                    <img src="assets/images/profile.jpg" alt="Metal Light Fixture">
+                    <div class="gallery-overlay">
+                        <h3>Geometric Light</h3>
+                        <p>Brushed aluminum pendant</p>
+                        <span class="category-tag">Metal</span>
+                    </div>
+                </div>
+
+                <!-- Ceramic Items -->
+                <div class="gallery-item" data-category="ceramic">
+                    <img src="assets/images/profile.jpg" alt="Ceramic Vase">
+                    <div class="gallery-overlay">
+                        <h3>Flowing Forms</h3>
+                        <p>Glazed stoneware vessel</p>
+                        <span class="category-tag">Ceramic</span>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="ceramic">
+                    <img src="assets/images/profile.jpg" alt="Ceramic Dinnerware">
+                    <div class="gallery-overlay">
+                        <h3>Minimalist Service</h3>
+                        <p>Porcelain dining collection</p>
+                        <span class="category-tag">Ceramic</span>
+                    </div>
+                </div>
+
+                <!-- Textile Items -->
+                <div class="gallery-item" data-category="textile">
+                    <img src="assets/images/profile.jpg" alt="Textile Art">
+                    <div class="gallery-overlay">
+                        <h3>Woven Narratives</h3>
+                        <p>Mixed fiber wall installation</p>
+                        <span class="category-tag">Textile</span>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="textile">
+                    <img src="assets/images/profile.jpg" alt="Textile Cushions">
+                    <div class="gallery-overlay">
+                        <h3>Comfort Series</h3>
+                        <p>Hand-woven cushion collection</p>
+                        <span class="category-tag">Textile</span>
+                    </div>
+                </div>
+
+                <!-- Digital Art Items -->
+                <div class="gallery-item" data-category="digital">
+                    <img src="assets/images/profile.jpg" alt="Digital Art">
+                    <div class="gallery-overlay">
+                        <h3>Digital Synthesis</h3>
+                        <p>Generative art composition</p>
+                        <span class="category-tag">Digital Art</span>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="digital">
+                    <img src="assets/images/profile.jpg" alt="Digital Installation">
+                    <div class="gallery-overlay">
+                        <h3>Interactive Space</h3>
+                        <p>Motion-responsive installation</p>
+                        <span class="category-tag">Digital Art</span>
+                    </div>
+                </div>
+
+                <!-- Additional Mixed Items -->
+                <div class="gallery-item" data-category="wood">
+                    <img src="assets/images/profile.jpg" alt="Wooden Bowl">
+                    <div class="gallery-overlay">
+                        <h3>Organic Bowl</h3>
+                        <p>Hand-turned cherry wood</p>
+                        <span class="category-tag">Wood</span>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="metal">
+                    <img src="assets/images/profile.jpg" alt="Kinetic Sculpture">
+                    <div class="gallery-overlay">
+                        <h3>Motion Study</h3>
+                        <p>Kinetic bronze sculpture</p>
+                        <span class="category-tag">Metal</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Lightbox Modal -->
+    <div id="lightbox" class="lightbox">
+        <div class="lightbox-content">
+            <span class="lightbox-close">&times;</span>
+            <img id="lightbox-image" src="assets/images/profile.jpg" alt="">
+            <div class="lightbox-info">
+                <h3 id="lightbox-title"></h3>
+                <p id="lightbox-description"></p>
+                <span id="lightbox-category"></span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>ART</h3>
+                    <p>Bridging the gap between industrial design and fine arts through innovative exhibitions and educational programs.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="gallery.html">Gallery</a></li>
+                        <li><a href="exhibitions.html">Exhibitions</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Follow Us</h4>
+                    <div class="social-links">
+                        <a href="#" aria-label="Instagram">Instagram</a>
+                        <a href="#" aria-label="Facebook">Facebook</a>
+                        <a href="#" aria-label="Twitter">Twitter</a>
+                        <a href="#" aria-label="YouTube">YouTube</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 ART. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="assets/js/script.js"></script>
+    <script src="assets/js/chatbot.js"></script>
+    </body>
+</html>
